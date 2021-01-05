@@ -6,6 +6,6 @@ services:
     ports:
       - '3000:3000'
     volumes:
-      - '.:product-register'
+      - '.:/product-register'
     tty: true
     stdin_open: true
